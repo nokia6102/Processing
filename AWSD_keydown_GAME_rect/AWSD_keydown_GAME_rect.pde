@@ -25,7 +25,15 @@ void draw(){
    if(key == 's'){
     y+=10;
    }  
- } 
+ }
+ if (x>=280) x=0; 
+ else if (x<=0) x=280;
+ if (y>=280) y=0; 
+ else if (y<=0) y=280;
+ 
   rect(x,y,20,20);
+  
    delay(50);
+   
+   
 }
