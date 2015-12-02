@@ -1,3 +1,4 @@
+size(840,480);
 smooth();
 background(255);
 noStroke();
