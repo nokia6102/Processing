@@ -5,9 +5,9 @@ noStroke();
 
 for (int i=1;i<=8;i++)
 {
-  int r=int(random(255));
-  int g=int(random(255));
-  int b=int(random(255));
+  int r=int(random(25)*10);
+  int g=int(random(25)*10);
+  int b=int(random(25)*10);
 fill(r,g,b);
 ellipse(i*50,20,16,16);
  
