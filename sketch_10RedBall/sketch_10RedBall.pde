@@ -1,12 +1,15 @@
-size(840,480);
+size(480,480);
 smooth();
 background(255);
 noStroke();
 
-for (int i=1;i<=5;i++)
+for (int i=1;i<=8;i++)
 {
-fill(255,0,0);
-ellipse(i*20,20,16,16);
+  int r=int(random(255));
+  int g=int(random(255));
+  int b=int(random(255));
+fill(r,g,b);
+ellipse(i*50,20,16,16);
  
 }
 //// Bright red
