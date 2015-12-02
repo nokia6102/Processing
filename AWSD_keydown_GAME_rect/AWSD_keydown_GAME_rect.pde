@@ -1,14 +1,16 @@
+int x=140,y=140;
 void setup(){
-  size(240,120);
+  size(300,300);  
   smooth();
 }
 
 void draw(){
- background(204); 
- line(20,20,220,100); 
+  background(204); 
  if(keyPressed){
-   //if(key == 'T'){
-   line(220,20,20,100);
-   //}
+   if(key == 'a'){
+    x-=10;
+   }  
  } 
+  rect(x,y,20,20);
+   delay(100);
 }
