@@ -11,6 +11,21 @@ void draw(){
     x-=10;
    }  
  } 
+ if(keyPressed){
+   if(key == 'd'){
+    x+=10;
+   }  
+ } 
+ if(keyPressed){
+   if(key == 'w'){
+    y-=10;
+   }  
+ } 
+ if(keyPressed){
+   if(key == 's'){
+    y+=10;
+   }  
+ } 
   rect(x,y,20,20);
-   delay(100);
+   delay(50);
 }
